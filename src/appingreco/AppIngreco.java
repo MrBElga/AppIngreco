@@ -22,9 +22,7 @@ public class AppIngreco {
         b1.Add(s4);
         
         if(s2 instanceof VIP)
-        {
             System.out.println(b1.total()+s2.getAdicional());
-        }
         else
             System.out.println(b1.total());
         
